@@ -12,7 +12,7 @@ class Program
         int sideb;
         int height;
         int output;
-        
+
         Console.WriteLine("Enter side A (cm):");
         sidea = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Enter side B (cm):");
