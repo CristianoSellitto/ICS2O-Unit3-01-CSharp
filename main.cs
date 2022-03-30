@@ -20,7 +20,7 @@ class Program
         Console.WriteLine("Enter height (cm):");
         height = Convert.ToInt32(Console.ReadLine());
         output = (((sidea + sideb) / 2) * height);
-        Console.WriteLine("\nThe area of this trapezoid is " + (output) + "cm².");
+        Console.WriteLine("\nThe area of this trapezoid is " + output + "cm².");
         Console.WriteLine("\nFinished.");
     }
 }
